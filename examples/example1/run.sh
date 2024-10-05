@@ -18,6 +18,13 @@ mkdir outputs/
 # 'gcc.ttrace' are given below. First, let us run the simulations with a
 # set of default model parameters listed in the file 'hotspot.config'
 # and gather the steady state temperatures onto a file. This is done by:
+
+# shuo comments 20241005
+# -c congig file
+# -f floorplan file
+# -p power trace file
+# outputs: 
+
  ../../hotspot -c example.config -f ev6.flp -p gcc.ptrace -materials_file example.materials -model_type block -steady_file outputs/gcc.steady -o outputs/gcc.ttrace
 
 # Now, 'gcc.ttrace' does contain a thermal trace but the initial
