@@ -62,6 +62,7 @@ c) HotFloorplan can be configured through many command line options.
       generated from the steps discussed above has blocks named
       in that form.
  iii) Weights for the metric (objective function):
+ # shuo 20241005: try to change the objective funciton
       HotFloorplan uses an objective function that is of the form
       lambdaA * A + lambdaT * T + lambdaW * W where A, T and W are
       the area, temperature and wire length respectively. The

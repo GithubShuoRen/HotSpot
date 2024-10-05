@@ -1,0 +1,14 @@
+
+usage: grid_thermal_map.py <flp_file> <grid_temp_file> <filename>.png (or)
+       grid_thermal_map.py <flp_file> <grid_temp_file> <rows> <cols> <filename>.png (or)
+       grid_thermal_map.py <flp_file> <grid_temp_file> <rows> <cols> <min> <max> <filename>.png
+
+Saves a heat map as a PNG image with the filename <filename>.png
+
+<flp_file>       -- path to the file containing the floorplan (eg: example.flp)
+<grid_temp_file> -- path to the grid temperatures file (eg: layer_0.grid.steady)
+<rows>           -- no. of rows in the grid (default 64)
+<cols>           -- no. of columns in the grid (default 64)
+<min>            -- min. temperature of the scale (defaults to min. from <grid_temp_file>)
+<max>            -- max. temperature of the scale (defaults to max. from <grid_temp_file>)
+
